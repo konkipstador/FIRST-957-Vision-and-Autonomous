@@ -1,3 +1,4 @@
+Edited to not show up in GIT, but still kept in the program to allow people who need the extra written instruction.
 # Java sample vision system
 
 This is the WPILib sample build system for building Java based vision targeting for running on systems other than the roboRIO. This currently supports the following platforms
