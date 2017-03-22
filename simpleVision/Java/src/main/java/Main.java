@@ -16,8 +16,7 @@ public class Main {
 		NetworkTable.initialize();
 
 		// These 3 lines of code grabs cameras, creates and MJPEG server, then
-		// pipes that camera stream into the server.
-		// Access the server on a network setting a static IP to:
+		// pipes that camera stream into the server. Set your static IP to
 		// 10.TE.AM.X and use the port number specified in the MJPEG server.
 		// Type in 10.TE.AM.X:PORT# in a browser on the DS to tune into the stream.
 		MjpegServer inputStream0 = new MjpegServer("MJPEG Server 1181", 1181);
