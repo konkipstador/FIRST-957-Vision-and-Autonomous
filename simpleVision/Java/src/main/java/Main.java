@@ -26,8 +26,7 @@ public class Main {
 		// This CV Sink grabs images from a camera that can be later put into a Mat.
 		CvSink imageSink = new CvSink("CV Image Grabber");
 		imageSink.setSource(camera0);
-
-
+\
 		// This creates a MJPEG server to stream Mats piped into the Source imageSource.
 		CvSource imageSource = new CvSource("CV Image Source", VideoMode.PixelFormat.kMJPEG, 640, 480, 30);
 		MjpegServer cvStream = new MjpegServer("CV Image Stream", 1189);
